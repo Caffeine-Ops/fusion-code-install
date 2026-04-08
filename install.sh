@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Fusion Code installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/Caffeine-Ops/fusion-code/main/install.sh | bash
-#        curl -fsSL https://raw.githubusercontent.com/Caffeine-Ops/fusion-code/main/install.sh | bash -s -- v2.1.87
+# Usage: curl -fsSL https://raw.githubusercontent.com/Caffeine-Ops/fusion-code-install/main/install.sh | bash
+#        curl -fsSL https://raw.githubusercontent.com/Caffeine-Ops/fusion-code-install/main/install.sh | bash -s -- v2.1.87
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -14,7 +14,7 @@ DIM='\033[2m'
 RESET='\033[0m'
 
 REPO_OWNER="Caffeine-Ops"
-REPO_NAME="fusion-code"
+REPO_NAME="fusion-code-install"
 VERSION="latest"
 PRINT_URL="0"
 INSTALL_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/fusion-code"
