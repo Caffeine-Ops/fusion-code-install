@@ -18,7 +18,7 @@ curl -fsSL https://raw.githubusercontent.com/Caffeine-Ops/fusion-code-install/ma
 
 This script downloads the public GitHub Release binary for your platform from:
 
-- `Caffeine-Ops/fusion-code`
+- `Caffeine-Ops/fusion-code-install`
 
 and installs it as:
 
@@ -30,3 +30,7 @@ and installs it as:
 - `fusion-code-darwin-x64`
 - `fusion-code-linux-x64`
 - `fusion-code-linux-arm64`
+
+## Important
+
+The private source repository can remain private. End users only need access to this public installer repository and its public GitHub Releases.
